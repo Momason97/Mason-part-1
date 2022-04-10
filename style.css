@@ -1,0 +1,115 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+   
+}
+
+
+
+header {
+    background-color:#70a48b;
+    border-bottom: 0.3em solid black;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section {
+    margin: 2em 2em 2em 2em;
+    padding: 1;
+
+}
+
+
+td {
+    color: white;
+}
+
+img {
+    border-radius: 10px;
+}
+ul, li {
+    display: flex;
+    margin: 1em, 1em, 1em, 1em;
+    padding: .5em;
+    
+}
+
+main {
+    margin: 1em 1em 1em 1em;
+}
+
+nav {
+    border: solid white;
+    border-radius: 10px;
+
+}
+h3 {
+    color: white;
+    border-style: solid;
+    border-color: black;
+    background-color: #70a48b;
+    border-radius: 10px;
+    padding: 1em;
+    
+    
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #70a48b;
+    margin-top: 1;
+    padding: 1em 1em 1em 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+#make-donation {
+    background-color: black;
+    border-radius: 10px;
+}
+
+#bottom-pic {
+    height: 40px;
+    border-radius: 10px;
+}
+table {
+    border-radius: 10px;
+    
+}
+
+ 
+@media screen and (min-width: 768px) {
+    header { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    table {
+        width: 100%;
+    }
+        .para {
+    float: left;
+    width: 33%;
+    }
+    .table {
+        margin: 1em;
+        padding: 1em;
+    }
+    main {
+        display: flex;
+        justify-content: space-between;
+    }
+    h3 {
+        width: 33%;
+    }
+    }
+
